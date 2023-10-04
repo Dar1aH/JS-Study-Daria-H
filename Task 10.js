@@ -14,7 +14,7 @@ function sum(...myArr){
 }
 console.log(sum(...myArr));
 */ 
-// Same logic using for loop 
+// Same logic using for loop ONLY 
 
 const myArr = [2, 3, 4, 5, 6];
 
