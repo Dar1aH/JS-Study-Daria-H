@@ -16,3 +16,11 @@ console.log(sum(...myArr));
 */ 
 // Same logic using for loop 
 
+const myArr = [2, 3, 4, 5, 6];
+
+let total = 0; 
+for(let number of myArr){
+    total +=number;
+}
+console.log(total);
+
