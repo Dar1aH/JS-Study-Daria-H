@@ -22,7 +22,7 @@ function toKilometers(length){
 function toMeters(length){
     return(length * 1000);
 
-} */
+}
 
 // Let's include if - else if 
 // And write a program that will covert meters to kilometers only 
@@ -32,8 +32,22 @@ if (length >= 1000){
     console.log(toKilometers(length) + " km");
 }
 else if(length < 1000){
-    console.log(toKilometers(length).toFixed(3) + " km"); // + 3 decimal places 
+    console.log(toKilometers(length).toFixed(3) + " kilometers"); // + 3 decimal places 
 }
 function toKilometers(length){
+    return length / 1000;
+}
+*/
+
+let length = 32;
+
+if (length >= 1000) {
+    console.log(length + " meters is " + toKilometers(length) + " kilometers");
+}
+else {
+    console.log(length + " meters is " + toKilometers(length).toFixed(3) + " kilometers");
+}
+
+function toKilometers(length) {
     return length / 1000;
 }
