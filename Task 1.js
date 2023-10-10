@@ -32,4 +32,5 @@ console.log(hamburger >=3 && HamburgerWithFries >=1 ?
     "We're going to another restaurant! F*ck this place!" );
 
 checkFood(hamburger, HamburgerWithFries);
+
 */
