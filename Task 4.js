@@ -3,21 +3,13 @@
     Результат виводити в консоль.
 */
 
-printSeason(2); // Enter numbers from 1 - 4 here 
-function printSeason(seasonNumber){
-    if(seasonNumber == 1){
-        console.log("Winter");
-    }
-    else if(seasonNumber == 2){
-        console.log("Spring");
-    }
-    else if(seasonNumber == 3){
-        console.log("Summer");
-    }
-    else if(seasonNumber == 4){
-        console.log("Fall");
-    }
-    else{
-        console.log("Wrong season number, dummy!");
-    }
+
+seasonNumber = 1;
+const printSeason = seasonNumber =>{
+    console.log(seasonNumber==1 ? "Winter" :
+    seasonNumber==2 ? "Spring" :
+    seasonNumber==3 ? "Summer" : 
+    seasonNumber==4 ? "Fall": "Such a season doesn't exist" );
 }
+printSeason(seasonNumber);
+
