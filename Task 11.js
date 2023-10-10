@@ -10,11 +10,13 @@
     4
     5
     6
-   */
-    const arr = [ [1, 2], [3, 4], [5, 6] ];
-    for(let numbers of arr){
-        for (let number of numbers){
-            console.log(number);
-        }
-    }
+*/
+ 
+   const arr = [ [1, 2], [3, 4], [5, 6] ];
+
+   arr.forEach(subArr =>{
+    subArr.forEach(number =>{
+     console.log(number);   
+    })
+   })
 
